@@ -9,7 +9,7 @@
       let res = await fetch(`http://www.omdbapi.com/?t=${Movie}&apikey=695ddea7`);
    
       let data = await res.json()
-      console.log('data' , data)
+     // console.log('data' , data)
   
       showMovie(data);
   
